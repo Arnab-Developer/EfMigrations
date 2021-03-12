@@ -1,0 +1,1 @@
+An example application for EF Migrations
