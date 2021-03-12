@@ -1,1 +1,1 @@
-An example application for EF Migrations
+An example application with EF Migrations
