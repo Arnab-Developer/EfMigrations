@@ -8,7 +8,11 @@ I have used two databases for this app. One is for dev env and another is for pr
 update dev database, I have used EF Migrations (add migrations and update database). 
 
 ```
-dotnet ef migrations add [migrations name]
+dotnet ef migrations add InitialCreate
+
+dotnet ef database update
+
+dotnet ef migrations add AddStudentSubject
 
 dotnet ef database update
 ```
@@ -17,4 +21,6 @@ To create and update prd database, I have generated SQL script with EF Migration
 
 ```
 dotnet ef migrations script
+
+dotnet ef migrations script InitialCreate
 ```
