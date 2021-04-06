@@ -21,6 +21,10 @@ To create and update prd database, I have generated SQL script with EF Migration
 
 ```
 dotnet ef migrations script
+```
 
+In the second time when prd database already have `InitialCreate` then to generate script after `InitialCreate`.
+
+```
 dotnet ef migrations script InitialCreate
 ```
